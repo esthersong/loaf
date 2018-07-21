@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  /* animation: App-logo-spin infinite 20s linear; */
+  height: 120px;
+}
+
+.App-header {
+  /* background-color: #222; */
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.citiesList{
+  margin-top: 80px;
+}
+  .city{
+    display: inline-block;
+    padding: 20px;
+  }
+  .city:hover{
+    cursor: pointer;
+  }
+  .city:hover .underline{
+    height: 1px;
+    -moz-transition: all 0.4s ease-in;
+    /* WebKit */
+    -webkit-transition: all 0.4s ease-in;
+    /* Opera */
+    -o-transition: all 0.4s ease-in;
+    /* Standard */
+    transition: all 0.4s ease-in;
+    width: 30%;
+  }
+    .cityImage img{
+      height: 200px;
+    }
+    .cityName{
+      font-family: Raleway;
+      /* text-align: left; */
+      margin-top: 15px;
+      letter-spacing: 2px;
+      margin-bottom: 10px;
+    }
+    .underline{
+      width: 0%;
+      background-color: black;
+      margin: 0 auto;
+    }
